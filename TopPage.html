@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Welcome to 学生向けメディアサイト</title>
+	  <!-- BootstrapのCSS読み込み -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-grid.css" rel="stylesheet">
+
+     <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/Bootstrap.min.js"></script>
+	<script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!-- TopPageヘッダー部分 -->
+	<header class="header" style="position: fixed; z-index: 10000">
+		<div class="container-TopPage" style="position: fixed; z-index: 10000">
+		<p style="background-color: #7ECF00;">仮ミラクルラボの概要コピー企業の代表や採用担当者に取材を行い、インタビュー記事を提裁する</p>
+		<img class="TopPage.icon" src="img/TopPage.icon.png" width="50" height="50">
+		<h1>MiMakuru Lab</h1>
+		<hr class="border_hr">
+		<!-- 検索フォーム部分 -->
+		<div class="searchForm">
+			<form action="https://google.com" method="GET">
+				<input href="https://google.com" class="searchForm-input" type="text">
+				<button class="searchForm-submit" type="submit"></button>
+			</form>
+			<a href="TopPage2.html"><img src="img/hum.png" id="hum-nav" class="hum-nav"></a>
+		</div>
+		<hr>
+		<div>
+	</header>
+	<!-- TopPageヘッダー部分終了 -->
+
+	<!-- メインページ部分 -->
+	<main>
+		<div id="main-container" class="main-container" style="position: relative; z-index: -1000">
+			<img src="img/logo_main.png"　height="65" width="90" class="logo_main.img">
+			<p class="main_text">すべての記事</p>
+			<!-- <img src="img/main_photo1.png" class="photo_content1"> -->
+			<!-- <img src="img/main_photo2.png"  class="photo_content2">
+			<img src="img/main_photo3.png"  class="photo_content3">
+			<img src="img/main_photo4.png"  class="photo_content4"> -->
+		</div>
+	</main>
+	<!-- メインページ部分ここまで -->
+	
+	
+	<footer class="fooder" id="fooder">
+		<div class="container-fooder" id="container-fooder">
+			<p>copyright(c) 2020 Smart Campass inc all rights reserved.</p>
+		</div>
+		<div class="btn" style="position: fixed;" onclick="scrollToTop()">
+		<script>
+			function scrollToTop() {
+				scrollTo(0, 0);
+			}
+		</script>
+		</div>	
+	</footer>
+	
+
+</body>
+</html>

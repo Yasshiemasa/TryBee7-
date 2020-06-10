@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Welcome to 学生向けメディアサイト</title>
+	  <!-- BootstrapのCSS読み込み -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-grid.css" rel="stylesheet">
+
+     <!-- jQuery読み込み -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- BootstrapのJS読み込み -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="bootstrap-4.3.1-dist/js/Bootstrap.min.js"></script>
+	<script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="respsnsive_2.style.css">
+</head>
+<body>
+    <header>
+       <div class="header_responsive_2" id="header_responsive_2">
+           <img src="img/res_2.hed_icon.png" class="hed_icon">
+           <a href="TopPage.html"><img src="img/hed_hum.png" class="hed_hum"></a>
+           <a href="#" class="content_txt1">ABOUT</a>
+           <a href="#" class="content_txt2">CONTACT</a>
+           <!-- 検索フォーム部分 -->
+        <div class="searchForm">
+            <form action="https://google.com" method="GET">
+                <input href="https://google.com" class="searchForm-input" type="text">
+                <button class="searchForm-submit" type="submit"></button>
+            </form>     
+       </div>
+    </header>
+
+    <footer>
+        <div id="footer_content" class="footer_content">
+            <img src="img/sc_logo_2.png" width="100" height="100">
+            <p>株式会社スマートキャンパス<br>
+            〒163-0630　東京都新宿区<br>
+            西新宿1-25-1 新宿センタービル30F</p>
+            <h2>頑張る大学生を応援する、<br>
+            大学生プラットフォームを構築していきます。</h2>
+            <div class="sns_content">
+                <img src="img/facebook_1.png" width="50" height="50" height="50">
+                <img src="img/twitter_1.png" width="50" height="50" height="50">
+            </div>
+            <script>
+            $(document).ready(function () {
+              hsize = $(window).height();
+              $("section").css("height", hsize + "px");
+            });
+            $(window).resize(function () {
+              hsize = $(window).height();
+              $("section").css("height", hsize + "px");
+            });
+            </script>
+        </div>
+    </footer>
+</body>
+</html>

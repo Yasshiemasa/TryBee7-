@@ -1,0 +1,115 @@
+@media screen and (max-width: 480px) {
+* {
+  margin:0;
+  padding:0; 
+}
+html {
+	height: 100%;
+	height: 100vh;
+}
+body {
+  font-family: adobe-clean, 'adobe clean', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  width: 100%;
+  background-color: #373737;
+  height: 100%;
+  height: 100vh;
+}
+.hed_icon {
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+}
+.hed_hum {
+  float: right;
+  margin-top: 0.5em;
+  margin-right: 1.5em;
+}
+.content_txt1 {
+　text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 10em; left: 40%;
+}
+.content_txt2 {
+  text-decoration: none;
+  color: white;
+  position: absolute;
+  top: 15em; left: 37%;
+}
+a {
+  text-decoration: none;
+  font-weight: 900;
+  font-family: ＭＳ ゴシック;
+  font-size: 18px;
+}
+/*検索フォーム*/
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #999;
+  border-radius: 50px;
+}
+.searchForm {
+  position: absolute;
+  right: 49%; 
+  margin-top: 20rem;
+}
+.searchForm-input {
+  width: 180%;
+}
+.searchForm-submit {
+  position: absolute;
+  width: 55px;
+  height: 34px;
+  top: calc(50% - 18px);
+  right: -9.6rem;
+  border-radius: 0 50px 50px 0;
+  background: #373737;
+}
+.searchForm-submit::before {
+  position: absolute;
+  content: '';
+  width: 15px;
+  height: 15px;
+  top: calc(50% - 9px);
+  left: calc(50% - 9px);
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px #fff;
+}
+.searchForm-submit::after {
+  position: absolute;
+  content: '';
+  width: 8px;
+  height: 6px;
+  top: calc(50% + 6px);
+  left: calc(50% + 2px);
+  border-top: solid 2px #fff;
+  transform: rotate(45deg);
+}
+/*検索フォームここまで*/
+.footer_content img {
+  margin-left: 1.5em;
+  margin-top: 27rem;
+}
+.footer_content p {
+  font-size: 12px;
+  color: white;
+  position: absolute;
+  bottom: 15rem;right: 2em;
+  font-family: Meiryo メイリオ;
+}
+.footer_content h2 {
+  color: white;
+  font-size: 14px;
+  margin-left: 1.5em;
+  margin-top: 2em;
+  font-family: Meiryo メイリオ;
+}
+.sns_content {
+  margin-top: 1em;
+}
+
+
+}
