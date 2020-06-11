@@ -57,9 +57,33 @@ input {
   left: calc(50% + 2px);
   border-top: solid 2px #fff;
   transform: rotate(45deg);
-}*/
-/*検索フォームここまで*/*/
+}
+/*検索フォームここまで*/
 
+/*レスポンシブ・スマホサイズ*/
+@media screen and (max-width: 480px) {
+* {
+  margin:0;
+  padding:0; 
+}
+.container-TopPage img {
+  position: absolute;
+  top: 0.5em;left: 1em;
+}
+h1 {
+  position: relative;
+  top: 1.3em;left: -6.5em;
+  font-size: 20px;
+}
+.container-TopPage::after {
+  content: url(img/hum.png);
+  float: right;
+  margin-top: -0.5em;
+
+}
+
+
+}
 
 
 
