@@ -27,35 +27,37 @@
         <span style="color:#FA9A56;">*</span>
         は入力必須項目になります。</p>
         <form action="" method="">
-        <div class="container">
+        <div id="container" class="container">
         <dl>
             <dd>
-                <label>   お名前<span style="color:#FA9A56;">*</span>
-                </label><input type="text" name="name" placeholder="例） 山田太郎" class="input_text"><br>
+                <label class="text_label">お名前<span style="color:#FA9A56;">*</span>
+                <input id="input" type="text" name="name" placeholder="例 山田太郎" class="input_text2" ><br>
             </dd>
             <dd>
-                <label>   所属<span style="color:#FA9A56;">*</span>
-                </label><input type="text" name="belongs" placeholder="例） ミマクル株式会社" class="input_text"> <br>
+                <label class="text_label">所属<span style="color:#FA9A56;">*</span>
+                </label><input type="text" name="belongs" placeholder="例） ミマクル株式会社" class="input_text2"> <br>
             </dd>
             <dd>
-                <label style="text-indent: 0.5em;">   連絡先<span style="color:#FA9A56; ">*</span>
-                </label><input type="text" name="number" placeholder="例） 09000000000" class="input_text"><br>
+                <label class="text_label">連絡先<span style="color:#FA9A56; ">*</span>
+                </label><input id="input" type="tel" name="tel"  placeholder="例） 09000000000" class="input_text2"><br>
             </dd>
             <dd>
-                <label>メールアドレス <span style="color:#FA9A56;">*</span>
-                </label><input type="text" name="number" placeholder="例） mimakuru@example@jp" class="input_text"><br>
+                <label class="label_form">メールアドレス <span style="color:#FA9A56;">*</span>
+                </label><input id="input" type="email" name="number"  placeholder="例） mimakuru@example@jp" class="input_text1"><br>
             </dd>
             <dd>
-            <label>問い合わせ内容 <span style="color:#FA9A56;">*</span>
+            <label class="label_form">問い合わせ内容 <span style="color:#FA9A56;">*</span>
                 </label>
-                <input type="text" name="select" placeholder="選択して下さい" style="font-:bold;" class="input_text"><br>
+                <input id="input" type="text" name="select" placeholder="選択して下さい" class="input_text1" ><br>
             </dd>
             
             <dd>
-                <label>問い合わせ内容 <span style="color:#FA9A56;">*</span></label>
-    　　　　　　　<textarea id="comment" name="comment">
-                </textarea>
-            <
+                <label class="textarea">問い合わせ詳細<span style="color:#FA9A56;">*</span></label>
+                <textarea id="input" type="text" name="comment"  placeholder="自由記述" class="input_textarea" style="padding-top: 3px;"></textarea>
+            </dd>
+            <dd>
+                <button type="submit" name="btn" value="" id="btn">入力内容の確認に進む</button>
+            </dd>    
 
            </dl>
         　　</div>

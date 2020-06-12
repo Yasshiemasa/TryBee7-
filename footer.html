@@ -1,0 +1,67 @@
+<!-- footer部分のhtml -->
+<footer class="fooder" id="fooder">
+		<div class="container-fooder" id="container-fooder">
+			<p>copyright(c) 2020 Smart Campass inc all rights reserved.</p>
+		</div>
+		<div class="btn" style="position: fixed;" onclick="scrollToTop()">
+		<script>
+			function scrollToTop() {
+				scrollTo(0, 0);
+			}
+		</script>
+		</div>	
+	</footer>
+
+<!-- footer部分のcss -->
+.fooder {
+	height: 170px;
+	width: 100%;
+	background-color: #7ECF00;
+}
+.container-fooder p {
+	text-align: center;
+	color: white;
+	padding-top: 4em;
+}
+.photo_content1 img {
+  margin-right: 0;
+  width: 100%;
+  float: right;
+}
+
+/*メインフォーム*/
+
+
+/*スクロールバー部分*/
+.btn {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background-color: #7ECF00;
+    border-radius: 10px;
+    position: absolute;
+    top: 55rem; right: 2em;
+    height: 40px;
+    width: 40px;
+    cursor:pointer;
+    border: solid 3px white;
+    float: right;
+    margin-right: 20px; 
+
+}
+.btn::before {
+    content:  '';
+    width: 20px;
+    height: 20px;
+    display:  block;
+    border-top: solid 2px;
+    border-right: solid 2px;
+    transform: rotate(-45deg);
+    position:  absolute;
+    top: 10px;
+    bottom:  0;
+    left:  0;
+    right:  0;
+    margin: auto;
+}
+/*スクロールバー部分終わり*/

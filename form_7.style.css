@@ -3,31 +3,26 @@
   padding: 0;	
 }
 h3 {
-  margin-left: 18em;
-  margin-top: 15em;  
+  margin-left: 10em;
+  margin-top: 10em;
 }
 p {
-  margin-left: 40em;
+  margin-left:27em;
   font-size: 12px;
-  margin-top: -1rem;
+  margin-top: -1.5rem;
  
 }
 .container {
   text-align: center;
-  padding-top: 5em; 
+   
 }
 label {
   font-size: 11px;
-  margin-left: 1em;
-  display: block;
-  text-align: left;
   margin-bottom: -3.5em;
-  margin-left: 50em;
-
+  margin-left: 2em;
 }
-span {
-  margin-right: 0.5em;
-  text-align: left;
+dd {
+  margin-left: -3em;
 }
 form dl dd {
   padding: 10px 0;
@@ -43,33 +38,122 @@ input {
   padding-left: 4px;
   padding-right: 430px; 
   margin: 15px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   border-radius: 8px;
   margin-left: 10em;
-  margin-bottom: 2em;
+  margin-bottom: 1px;
   font-size: 11px;
-  text-align: left;
-
+}
+.label_form {
+  margin-right: 3em;
 }
 .input_text {
   margin-left: 0;
-  color: #F1F3F5;
-
+  color: black;
+  font-size: 12px;
 }
-textarea {
+.input_text1 {
+  margin-left: 1.9rem;
+}
+.text_label2 {
+  padding-left: 8em;
+  margin-right: 5em;
+}
+.input_textarea {
+  margin-left: 10rem;
   background-color: #F1F3F5;
-  border: none; 
-  padding-left: 200px; 
-  padding-right: 200px;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  border: none;
+  padding-right: 430px;
   border-radius: 8px;
-  margin-right: 7.8em;
+  padding-bottom: 130px;
+ 
+  font-size: 11px;
+  font-family: Arial;
+  padding-top: 3px;
+  padding-left: 3px;
 }
+.textarea {
+  position: absolute;
+  bottom: 9.5em; left: 21%;
+}
+button {
+  font-size: 10px;
+  color: white;
+  border: none;
+  padding:15px;
+  border-radius: 5px;
+}
+#btn {
+  background-color: #7ECF00;
+}
+
+/*レスポンシブデザイン・スマホ*/
+@media screen and (max-width: 480px) {
+* {
+  margin:0;
+  padding:0; 
+}
+body {
+  width: 100%;
+}
+h3 {
+  margin-left: 7rem;
+}
+p {
+  visibility: hidden;
+}
+h3::after {
+  content: "お問い合わせのご確認 \A";
+  font-size: 12px;
+  font-weight: lighter;
+  position: absolute;
+  right: 12em;
+  padding-top: 2.5em;
+}
+.container {
+  text-align: center;
+  margin-top: -5em;
+}
+.input_text2 {
+  padding-right: 130px;
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: -1em;
+  border-radius: 5px;
+}
+.input_text1 {
+  padding-right: 130px;
+  border-radius: 5px;
+  margin-left: 10em;
+}
+.input_textarea {
+  padding-right: 130px;
+  border-radius: 5px;
+  margin-left: 10em;
+}
+/*label {
+  margin-left: -3em;
+}*/
 .text_label {
-  padding-left: -5em;
+  margin-right:12em; 
 }
+.label_form {
+  margin-right: 8em;
+}
+.textarea {
+   margin-right: 8em;
+}
+.input_textarea {
+  padding-right: 130px;
+}
+#btn {
+  margin-left: 10em;
+}
+}
+
+
+
 
 
 
