@@ -1,42 +1,154 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Welcome to 学生向けメディアサイト</title>
-	  <!-- BootstrapのCSS読み込み -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/bootstrap-grid.css" rel="stylesheet">
-
-     <!-- jQuery読み込み -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- BootstrapのJS読み込み -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="bootstrap-4.3.1-dist/js/Bootstrap.min.js"></script>
-	<script src="bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="style_3.css">
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Welcome to 学生向けメディアサイト</title>
+  <!-- PC用CSS -->
+  <link rel="stylesheet" type="text/css" href="style_4.css">
+   <!--レスポンシブ用css-->
+  <link rel="stylesheet" type="text/css" href="re_style_3.css" />
 </head>
+<!-- CSS,border.style.sheet -->
+<style>
+  .border_1 {
+    border: 1px solid #E1E8EB;
+  }
+  .border_2 {
+    border: 1px solid #E1E8EB;
+    margin-bottom: 4em;
+    width: 600px;
+  }
+  .border_3 {
+     border-top: 1px solid #E1E8EB;
+     margin-top: 4px;
+     margin-left: 1em;
+     /*width: 630px;*/
+  } 
+</style>
+
+<!-- レスポンシブCSS border修正箇所 -->
+<style type="text/css">
+  @media screen and (orientation: portrait){
+* {
+  margin:0;
+  padding:0; 
+}
+.border_1 {
+  width: 320px;
+  margin-left: 1.5em; 
+}
+.border_2 {
+  width: 320px;
+}
+.border3 {
+   width: 20px;
+}
+}
+.border_4 {
+   border: 1px solid #E1E8EB;
+   width: 230px;
+   margin-left: 2em;
+}
+}
+</style>
 <body>
-<!-- TopPageヘッダー部分 -->
-    <header class="header" style="position: fixed; z-index: 10000">
-        <div class="container-TopPage" style="position: fixed; z-index: 10000">
-            <img class="TopPage.icon" src="img/TopPage.icon.png" width="50" height="50">
-            <h1>MiMakuru Lab</h1>
-        </div>
-        <!-- 検索フォーム部分 -->
-        <div class="searchForm">
-            <form action="https://google.com" method="GET">
-                <input href="https://google.com" class="searchForm-input" type="text">
-                <button class="searchForm-submit" type="submit"></button>
-            </form>
-            <a href="TopPage2.html"><img src="img/hum.png" id="hum-nav" class="hum-nav" style="position: absolute;top:3.5em;left:111em;"></a>
-        </div>
-         <!-- 検索フォーム部分 -->
+<!-- SNS_icon -->
+<ul class="nav" style="list-style: none;">
+   <li><a href="#"><img src="img/facebook_fav.png" id="sns_img" class="sns_img1"></a></li>
+   <li><a href="#"><img src="img/twitter_fav.png" id="sns_img" class="sns_img2"></a></li>
+   <li><a href="#"><img src="img/instagram_fav.png" id="sns_img" class="sns_img3"></a></li>
+   <li><a href="#"><img src="img/line_fav.png" id="sns_img" class="sns_img4"></a></li>
+</ul>
+<!-- スクロールバー部分 -->
+<div class="btn_scroll" onclick="scrollToTop()">
+  <script>
+    function scrollToTop() {
+      scrollTo(0, 0);
+    }
+  </script>
+</div>  
+<!-- スクロールバー部分 --> 
+<!-- メインページ部分 -->
+<article>
+<section>
+<div id="article_container" class="article_container">
+  <div class="font_text1">
+    <h3>宮本さんが大学生だった頃</h3>
+    <h4>とにかく稼ぐことばかり考えていた。</h4>
+    <div class="border_1"></div>
+  </div>
+  <div class="font_text2">
+    <h3>宮本さんが就活生だった頃</h3>
+    <h4>とにかく成長できる場所を求めていた。<span class="break"></span>さっさと実践的な現場に出たかった。</h4>
+    <div class="border_1"></div>
+  </div>
+  <div class="font_text3">
+    <img src="img/main_logo.png">
+  </div>
+  <div class="font_text">
+      <div class="font_text4">
+        <h3>(就活生に向けて)御社の魅力ベスト3</h3>
+        <div class="border_2"></div>
+      </div>
+      <div class="font_text5">
+        <h3>御社に合いそうな<span class="break_1">(こんな人に入社して欲しい！)</span></h3>
+        <div class="border_2"></div>
+      </div>
+      <div class="font_text6">
+        <h3>学生時代どんな経験をしている人は多いか？</h3>
+        <div class="border_2"></div>
+      </div>
+      <div class="font_text7">
+        <h3>ミラクルを使う学生へのメッセージ</h3>
+        <div class="border_2"></div>
+      </div>
+  </div>
+</div>
+</section>
+</article>
 
+  <main>
+    <section class="main_section">
+      <div id="main_content" class="main_content" style="background-color: #EEF680;">
+        <div>
+          <span class="span_text">余談 | オススメの本・マンガ・映画</span>
+        </div>
+        <div class="book_text">
+          <p class="txt1">オススメの本 :</p><br><p class="txt2">「走ることについて語る時に僕の語ること」</p><br>
+          <p class="txt3">村上春樹著</p>
+        </div> 
+        <div class="border_3"></div>
+        <div>
+          <p class="book_content">走ることについて語りつつ、小説家としてのありよう、創作の秘密、そして彼自身初めて<br>
+            説き明かした画期的なメモアール　1982年秋、専業作家としての生活を開始した時、彼は心を初めて決めて<br>
+            路上を走り始めた。それ以来25年にわたって世界各地で、フル・マラソンや100キロマラソンや、<br>
+            トライアスロン・レースを休むことなく走り続けた。旅行バックの中にはいつもランニング・シューズがあった。<br>
+            走ることは走ることは彼自身の生き方をどのように変えてきたのだろう？日々路上に流された汗は、何をもたらしてくれたのか<br>
+            村上春樹が書き下ろす、走る小説家としての、そして小説を書くランナーとしての、必読のメモアール。
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
 
+  <footer>
+    <div id="footer_content" class="footer_content">
+      <a href="#" id="footer_a" class="footer_a_1">LOGOMARK</a>
+      <a href="#" id="footer_a" class="footer_a_2"><p>株式会社俺たちの明日</p><br>
+        〒163-0630 東京都新宿区<br>
+      西新宿1-25-1 新宿センター30F</a>
+      <a href="#" id="footer_a" class="footer_a_3"><p>企業URL : https://○○○○○○○○○.jp/</p><br>
+      採用HP :  https://○○○○○○○○○.jp/</a> 
+    </div>
+
+    <div>
+      <input type="submit" class="btn" name="" value="この人の話が聞きたい" />
+    </div>
+  </footer>
+  <script>
+    console.log(window.innerWidth);
+  </script>
 </body>
 </html>

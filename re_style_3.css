@@ -1,0 +1,218 @@
+/*レスポンシブデザイン・スマホ*/
+/*@media screen and (orientation: portrait){*/
+
+  @media screen and (max-width: 480px) {
+* {
+	margin:0;
+	padding:0; 
+}
+body {
+	
+}
+
+.article_container {
+	display: inline;
+}
+.article_container h3 {
+	font-size: 12px;
+	margin-right: 15em;
+	padding-top: 3px;
+	
+}
+.article_container h3 {
+	white-space: nowrap;
+}
+
+.article_container h4 {
+	font-size: 14px;		
+	white-space: nowrap;
+	margin-right: 3em;
+}
+.font_text h4 {
+	margin-top: 2em;
+	margin-left: -1.2em;
+}
+.break:before {
+	content: "\A";
+	white-space: pre;
+}
+.font_text {
+	font-size: 25px;
+	margin-left: 1.5em;
+	padding-top: 3px;
+	white-space: nowrap;
+}
+.font_text1 {
+	margin-top: 27em;	
+}
+
+img {
+    width: 320px;
+    margin-left: 1.5em;
+}
+.font_text4 {
+	margin-top: 2em;
+	margin-left: -1.2em;
+}
+.font_text5 {
+	margin-top: 2em;
+	margin-left: -1.2em;
+}
+.font_text6 {
+	margin-top: 2em;
+	margin-left: -1.2em;
+}
+.font_text7 {
+	margin-left: -1.2em;	
+}
+.break_1 {
+	font-size: 10px;
+	text-indent: 1em;
+}
+.span_text {
+	font-size: 4px;
+	color: white;
+    background-color: black;
+    white-space: nowrap;
+    border-radius: 3px;
+    padding: 6px;
+    padding-left:7px;
+    padding-right:7px;
+    margin-left: 36em;
+    
+}
+.txt1 {	
+	margin-left: 6em;
+}
+.txt2 {
+	
+	margin-left: 5em;
+}
+.txt3 {
+	text-align: left;
+	margin-left: 6em;
+	padding-bottom: 1em;
+}
+.border3 {
+	width: 200px;
+	margin-left: 6em;
+}
+.book_content {
+	font-size: 6px;
+	padding: 2px;
+	margin-left: 10em;
+}
+.main_content {
+	display: inline;
+	float: center;
+}
+.main_section {
+	background-color: #EEF680;
+	width: 320px;
+	height: 450px;
+	margin-left: 2.5em;
+}
+.footer_content {
+	display: inline;
+	border: none;
+
+}
+#footer_a {
+	display: block;
+	justify-content: center;
+	margin-bottom: 1em;
+}
+.footer_a_1 {
+	margin-left: 2.7em;
+}
+.footer_a_2 {
+	border: none;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	margin-left: 2em;
+	margin-top: 1em;
+}
+.footer_a_2::before {
+	content: "株式会社俺たちの明日";
+	font-size: 15px;
+	margin-left: 2em;
+}
+.footer_a_2 p {
+	visibility: hidden;
+	display: inline;
+}
+.footer_a_3 {
+	white-space: nowrap;
+	margin-top: 1.5em;
+	margin-left: 4em;
+}
+.footer_a_3 p {
+	margin-left: 2px;
+	padding-top: 0;
+	margin-top: 0;
+}
+.btn {
+	padding-right: 8em;
+	padding-left: 8em;
+	position: relative;
+	right: 24em; top: -4em;
+}
+/*スクロールバー部分*/
+.btn_scroll {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background-color: #7ECF00;
+    border-radius: 10px;
+    height: 40px;
+    width: 40px;
+    cursor:pointer;
+    border: solid 3px white;
+    position: fixed;
+    top: 35em; right: 18em;
+
+}
+.btn_scroll::before {
+    content:  '';
+    width: 20px;
+    height: 20px;
+    display:  block;
+    border-top: solid 2px;
+    border-right: solid 2px;
+    transform: rotate(-45deg);
+    position:  absolute;
+    top: 10px;
+    bottom:  0;
+    left:  0;
+    right:  0;
+    margin: auto;
+}
+/*スクロールバー部分終わり*/
+#sns_img {
+
+}
+.sns_img1 {
+	position: absolute;
+	top: 38.7em; left: 4.5em;
+}
+.sns_img2 {
+	position: absolute;
+	top: 39em; left: 8em;
+}
+.sns_img3 {
+	position: absolute;
+	top: 39em; left: 11em;
+}
+.sns_img4 {
+	position: absolute;
+	top: 39em; left: 14em;
+}
+
+ul {
+	text-align: center;
+}
+li {
+	display: inline-block;
+}
+
+}
